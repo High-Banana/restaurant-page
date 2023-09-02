@@ -4,6 +4,7 @@ import loadContactPage from "./contact";
 
 function createNavBar() {
     const navbar = document.createElement("div");
+    navbar.classList.add("navbar");
 
     const home = document.createElement("li");
     home.textContent = "Home";
