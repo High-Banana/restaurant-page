@@ -18,21 +18,37 @@ function createMenuPage() {
 
             "Upgrade cheesy tomato pasta with gnocchi, chorizo and mozzarella for a comforting bake that makes an excellent midweek meal"));
 
-    menu.appendChild(createMenuItem(
-        "images/foods/lasagne.jpg",
+    menu.appendChild(
+        createMenuItem(
+            "images/foods/lasagne.jpg",
 
-        "Vegetarian lasagne",
+            "Vegetarian lasagne",
 
-        "Make our easy vegetarian lasagne using just a handful of ingredients. You can use ready-made tomato sauce and white sauce, or batch cook the sauces and freeze them"));
+            "Make our easy vegetarian lasagne using just a handful of ingredients. You can use ready-made tomato sauce and white sauce, or batch cook the sauces and freeze them"));
 
-    menu.appendChild(createMenuItem(
-        "images/foods/cake.jpg",
+    menu.appendChild(
+        createMenuItem(
+            "images/foods/cake.jpg",
 
-        "Easy chocolate fudge cake",
+            "Easy chocolate fudge cake",
 
-        "Tasty food fr"));
+            "Tasty food fr"));
 
-    menu.appendChild(createMenuItem("images/foods/cowboy-pie.jpg", "Cowboy pie", "What says comfort food better than sausages and baked beans in a pie topped with cheesy, buttery mashed potato? This is a guaranteed family favourite"));
+    menu.appendChild(
+        createMenuItem(
+            "images/foods/cowboy-pie.jpg",
+
+            "Cowboy pie",
+
+            "What says comfort food better than sausages and baked beans in a pie topped with cheesy, buttery mashed potato? This is a guaranteed family favourite"));
+
+    menu.appendChild(
+        createMenuItem(
+            "images/foods/curry.jpg",
+
+            "Easy chicken curry",
+
+            "This easy staple chicken curry is a fantastic recipe for family dinners. It's made with just a handful of ingredients and is enriched with creamy yogurt"));
 
     return menu;
 }
