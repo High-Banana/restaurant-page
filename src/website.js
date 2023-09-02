@@ -1,3 +1,5 @@
+import loadHomePage from "./home";
+
 function createNavBar() {
     const navbar = document.createElement("div");
 
@@ -20,7 +22,6 @@ function createNavBar() {
 function createBody() {
     const main = document.createElement("div");
     main.classList.add("main");
-    main.textContent = "kjajfkadanadf";
 
     return main;
 }
@@ -39,6 +40,8 @@ const initialiseWebsite = () => {
     contentContainer.appendChild(createNavBar());
     contentContainer.appendChild(createBody());
     contentContainer.appendChild(createFooter());
+    loadHomePage();
+
 }
 
 export default initialiseWebsite;
