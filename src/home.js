@@ -21,13 +21,13 @@ function createHomePage() {
     const introPara = document.createElement("div");
     introPara.classList.add("intro-para");
 
-    const intro = document.createElement("p");
+    const firstIntro = document.createElement("p");
     intro.textContent = "The best restaurant in the city. Any doubts? No? Okay. That's what I thought.";
 
     const secondIntro = document.createElement("p");
     secondIntro.textContent = "Our focus is to offer high quality international cuisine with the elegance of fine-dining while in a relaxed and comfortable atmosphere. Our menu offers freshly made and unique innovative dishes and our service is attentive and gracious.";
 
-    introPara.appendChild(intro);
+    introPara.appendChild(firstIntro);
     introPara.appendChild(secondIntro);
 
     home.appendChild(titleImage);
