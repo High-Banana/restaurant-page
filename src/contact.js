@@ -23,7 +23,7 @@ function createContactPage() {
 const loadContactPage = () => {
     const main = document.querySelector(".main");
 
-    main.textContent = "";
+    main.replaceChildren();
     main.appendChild(createContactPage());
 }
 

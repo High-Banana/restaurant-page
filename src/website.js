@@ -36,7 +36,7 @@ function createBody() {
 function createFooter() {
     const footer = document.createElement("div");
     footer.classList.add("footer");
-    footer.textContent = "footer";
+    footer.innerHTML = "Made by <a href='https://github.com/Zirconium-Zr/restaurant-page' target='_blank'>Zirconium</a>";
 
     return footer;
 }

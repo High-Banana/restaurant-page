@@ -29,7 +29,7 @@ function createMenuItem(name, description) {
 
 const loadMenuPage = () => {
     const main = document.querySelector(".main");
-    main.textContent = "";
+    main.replaceChildren();
     main.appendChild(createMenuPage());
 }
 

@@ -38,7 +38,7 @@ function createHomePage() {
 
 const loadHomePage = () => {
     const main = document.querySelector(".main");
-    main.textContent = "";
+    main.replaceChildren();
     main.appendChild(createHomePage());
 }
 
