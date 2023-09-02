@@ -48,7 +48,6 @@ const initialiseWebsite = () => {
     contentContainer.appendChild(createBody());
     contentContainer.appendChild(createFooter());
     loadHomePage();
-
 }
 
 export default initialiseWebsite;
