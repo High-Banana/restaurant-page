@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(226, 226, 226, 0.7);
+    height: 3rem;
+    padding: 1rem;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(77, 77, 77);
+    box-shadow: 5px 2px 10px 1px black;
+}
+
+.navbar li {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.navbar li:nth-child(1) {
+    font-weight: 700;
+    color: black;
+}
+
+.navbar li:hover {
+    transform: scale(1.08);
+}
