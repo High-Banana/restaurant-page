@@ -1,5 +1,6 @@
 function createHomePage() {
     const home = document.createElement("div");
+    home.classList.add("home");
 
     const title = document.createElement("h3");
     title.textContent = "Welcome to Los Santos Restaurant";

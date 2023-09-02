@@ -1,4 +1,5 @@
 import loadHomePage from "./home";
+import loadMenuPage from "./menu";
 
 function createNavBar() {
     const navbar = document.createElement("div");
@@ -15,6 +16,9 @@ function createNavBar() {
     navbar.appendChild(home);
     navbar.appendChild(menu);
     navbar.appendChild(contact);
+
+    home.addEventListener("click", loadHomePage);
+    menu.addEventListener("click", loadMenuPage);
 
     return navbar;
 }
